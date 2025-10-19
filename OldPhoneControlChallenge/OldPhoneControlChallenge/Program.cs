@@ -108,28 +108,6 @@ namespace OldPhoneControlChallenge
             Console.WriteLine("Input: ");
             string input = Console.ReadLine();
             Console.WriteLine(OldPhonePad(input));
-
-            ////Debug Testing
-            //List<(string, string)> tests = new List<(string input, string expected)>
-            //{
-            //    ("22 2 222#", "BAC"),
-            //    ("33#", "E"),
-            //    ("227 *#", "B"),
-            //    ("4433555 555666#", "HELLO"),
-            //    ("8 88777444666*664#", "TURING"),
-
-            //};
-
-            //foreach (var (input, expected) in tests)
-            //{
-            //    string output = OldPhonePad(input);
-            //    bool pass = string.Equals(output, expected, StringComparison.OrdinalIgnoreCase);
-
-            //    if (pass)
-            //        Console.WriteLine($"PASS | Input: {input} | Output: {output}");
-            //    else
-            //        Console.WriteLine($"FAIL | Input: {input} | Output: {output} | Expected: {expected}");
-            //}
         }
 
     }
