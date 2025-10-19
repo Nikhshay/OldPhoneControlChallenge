@@ -6,3 +6,8 @@
 /.vs
 /OldPhoneControlChallenge/.vs/OldPhoneControlChallenge
 /OldPhoneControlChallenge/OldPhoneControlChallenge/bin/Debug/net8.0
+/OldPhoneControlChallenge/OldPhoneControlChallenge/obj/Release/net8.0
+/OldPhoneControlChallenge/OldPhoneControlChallenge/obj/Debug/net8.0
+/OldPhoneControlChallenge/OldPhoneControlChallenge/obj
+/OldPhoneControlChallenge/OldPhoneControlChallengeUnitTest/bin
+/OldPhoneControlChallenge/OldPhoneControlChallengeUnitTest/obj
