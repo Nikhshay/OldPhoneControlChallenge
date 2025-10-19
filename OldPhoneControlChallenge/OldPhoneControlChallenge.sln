@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldPhoneControlChallenge", "OldPhoneControlChallenge\OldPhoneControlChallenge.csproj", "{FDA24A72-0EDB-49B6-B119-4D1DA7DF2701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldPhoneControlChallengeUnitTest", "OldPhoneControlChallengeUnitTest\OldPhoneControlChallengeUnitTest.csproj", "{1EC0D5F1-E8EA-43EE-A896-636BE3DEBA66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA24A72-0EDB-49B6-B119-4D1DA7DF2701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA24A72-0EDB-49B6-B119-4D1DA7DF2701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA24A72-0EDB-49B6-B119-4D1DA7DF2701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA24A72-0EDB-49B6-B119-4D1DA7DF2701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC0D5F1-E8EA-43EE-A896-636BE3DEBA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC0D5F1-E8EA-43EE-A896-636BE3DEBA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC0D5F1-E8EA-43EE-A896-636BE3DEBA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC0D5F1-E8EA-43EE-A896-636BE3DEBA66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C69DA17-6538-4534-80C2-0E4E73E5221F}
+	EndGlobalSection
+EndGlobal
