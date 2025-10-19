@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/OldPhoneControlChallenge/.vs/OldPhoneControlChallenge/copilot-chat/62b399a0/sessions
+/.vs
+/OldPhoneControlChallenge/.vs/OldPhoneControlChallenge
+/OldPhoneControlChallenge/OldPhoneControlChallenge/bin/Debug/net8.0
