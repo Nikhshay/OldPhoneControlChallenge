@@ -85,18 +85,23 @@ namespace OldPhoneControlChallenge
 
             foreach (Match match in matches)
             {
-                string letters = PhoneKey[match.Value[0]]; //Take first character for each of the group and find in dictionary
-                int letterCount = letters.Length;
+                char key = match.Value[0];
                 int pressCount = match.Length;
-                int letterIndex = (pressCount - 1) % letterCount; // Wrap around using modulo
+                string letters = PhoneKey[key]; //Take first character for each of the group and find in dictionary
+
+                if (key == '0')
+                {
+                    result.Append(' ', pressCount);
+                    continue;
+                }
+                
+                int letterIndex = (match.Length - 1) % letters.Length; // Wrap around using modulo (pressCount - 1) % letterCount
                 result.Append(letters[letterIndex].ToString()); // Append the corresponding letter
             }
 
             // handle special characters at the end
             if (result.ToString().Contains('*'))
                 result =  RemovePreviousChar(result);
-
-
 
             string returnVal = result.ToString();
 
@@ -112,12 +117,4 @@ namespace OldPhoneControlChallenge
 
     }
 }
-
-
-
-
-
-
-
-
 
